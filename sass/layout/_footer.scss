@@ -1,0 +1,37 @@
+.my-footer {
+    padding: 1rem 1rem;
+    background: $color-dark-blue-2;
+
+    &__navigation-item {
+        list-style-type: none;
+    }
+    
+    &__logo-box {
+        padding: 1rem 1rem;
+    }
+
+    &__logo {
+        width: 102px;
+        height: 76px;
+        margin: 0 auto;
+    }
+
+    &__navigation-link {
+        &:link,
+        &:visited {
+            padding: 1rem 1rem;
+            color: $color-header-linear-1;
+            text-decoration: none;
+            text-transform: uppercase;
+            display: inline-block;
+            transition: all .2s;
+        }
+
+        &:hover,
+        &:active {
+            color: wheat;
+            box-shadow: 0 1rem 2rem rgba($color-black, .4);
+            transform: rotate(-5deg) scale(1.3);
+        }
+    }
+}

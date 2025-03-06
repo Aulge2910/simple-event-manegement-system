@@ -1,0 +1,13 @@
+.my-header {
+    background-image: linear-gradient(to right, #ffffff, $color-header-linear-1, $color-header-linear-2,$color-header-linear-3,$color-header-linear-4);
+    padding: 1rem 1rem;
+    
+    &__logo-box{
+        padding: 1rem 0rem;
+    }
+
+    &__logo {
+        width: 76px;
+        height: 54px;
+    }
+}
